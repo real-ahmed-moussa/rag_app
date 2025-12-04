@@ -1,4 +1,4 @@
-# 📌 RAG-App: Retrieval-Augmented Question Answering over PDFs
+# RAG-App: Retrieval-Augmented Question Answering over PDFs
 
 <p align="center">
   <img src="imgs/rag.png" alt="RAG-App" width="300">
@@ -6,7 +6,7 @@
 
 > A small, production-style Retrieval-Augmented Generation (RAG) system that ingests PDF reports, indexes them with BM25 & vector search, and serves answers via a FastAPI endpoint.
 
-
+---
 
 ## 📖 Overview
 This project implements a **RAG pipeline** that lets you:
@@ -17,7 +17,7 @@ This project implements a **RAG pipeline** that lets you:
 
 It is designed as a **portfolio-grade, minimal RAG service**—clean project layout, clear separation of concerns (ingestion, indexing, retrieval, generation), and simple curl examples for testing.
 
-
+---
 
 ## 🏢 Business Impact
 Most organizations have critical knowledge locked in PDFs: reports, manuals, policies, and contracts. This project shows how to:
@@ -30,7 +30,7 @@ It demonstrates practical skills in:
 2. Combining **classical IR (BM25)** with **vector search**.
 3. Exposing the pipeline as an **API** suitable for real-world integration.
 
-
+---
 
 ## 🚀 Features
 ✅ **PDF Ingestion Pipeline** – Extracts text from PDFs and writes clean chunks ready for indexing.  
@@ -52,7 +52,7 @@ It demonstrates practical skills in:
 
 *(Exact libraries may vary slightly depending on your `requirements.txt`.)*
 
-
+---
 
 ## 📂 Project Structure
 <pre>
@@ -82,7 +82,7 @@ It demonstrates practical skills in:
  ┗ 📜 README.md                                     # Project documentation.
 </pre>
 
-
+---
 
 ## 🛠️ Getting Started
 1️⃣ **Clone the Repository**
@@ -111,7 +111,7 @@ data/pdfs/
  ┗ Another_Report.pdf
 </pre>
 
-
+---
 
 ## 🧱 Build the Indexes
 Run the pipeline to:
@@ -133,7 +133,7 @@ python pipeline_runner.py
 </pre>
 to rebuild the indexes.
 
-
+---
 
 ## 🌐 Run the API
 ### 1. Set your OpenAI API Key
@@ -160,7 +160,7 @@ You can explore the interactive docs at:
 - `http://127.0.0.1:8000/docs` (Swagger UI)
 - `http://127.0.0.1:8000/redoc` (ReDoc)
 
-
+---
 
 ## 🔍 Ask Questions (Examples)
 Use `curl` to query the `/ask` endpoint:
@@ -181,7 +181,7 @@ The API will:
 2. Send them, along with your question, to the OpenAI model.
 3. Return a concise answer grounded in the retrieved context.
 
-
+---
 
 ## 🧩 Architecture at a Glance
 ### 1. Ingestion
@@ -197,7 +197,7 @@ The API will:
 - Feed the question + retrieved context to the OpenAI model.
 - Return an answer along with optional supporting snippets.
 
-
+---
 
 ## 🧪 Extending the Project
 Some natural extensions:
@@ -207,27 +207,27 @@ Some natural extensions:
 - Log Q&A pairs to a database for feedback-driven improvement.
 - Add evaluation scripts (e.g. retrieval metrics, hallucination checks).
 
-
+---
 
 ## 🤝 Contributing
 Pull requests are welcome.  
 For major changes, please open an issue first to discuss what you would like to change.
 
-
+---
 
 ## 📫 Contact
 For feedback, bugs, or collaboration ideas:
 - **GitHub**: [@real-ahmed-moussa](https://github.com/real-ahmed-moussa)  
 
-
+---
 
 ## ⭐️ Show Your Support
 If you find this project useful, consider giving it a ⭐️ on [GitHub](https://github.com/real-ahmed-moussa/rag_app)!
 
-
+---
 
 ## 📝 License
-- This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
-- This project is licensed under the MIT License.
+This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
 
+This project is licensed under the MIT License.
 © 2025 Dr. Ahmed Moussa
