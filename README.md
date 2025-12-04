@@ -74,7 +74,8 @@ It demonstrates practical skills in:
  │  ┗ 📜 query_retriever.py                         # Hybrid retrieval: BM25 + FAISS → merges top-k results for OpenAI.
  ┣ 📂 vectorstores
  │  ┣ 📂 bm25_index                                 # Auto-generated BM25 index files (never edit manually).
- │  ┗ 📂 faiss_topic                                # FAISS vector index + metadata store. 
+ │  ┗ 📂 faiss_topic                                # FAISS vector index + metadata store.
+ ┣ 📂 imgs
  ┣ 📜 pipeline_runner.py                            # Main indexing pipeline: extract → chunk → embed → build indexes.
  ┣ 📜 requirements.txt                              # Python dependencies (FastAPI, FAISS, PyPDF, OpenAI SDK, etc.).
  ┣ 📜 keys.env                                      # Environment file for storing API keys (excluded from Git).
@@ -208,14 +209,6 @@ Some natural extensions:
 
 
 
-## 📝 License
-- This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
-- This project is licensed under the MIT License.
-
-© 2025 Dr. Ahmed Moussa
-
-
-
 ## 🤝 Contributing
 Pull requests are welcome.  
 For major changes, please open an issue first to discuss what you would like to change.
@@ -230,3 +223,11 @@ For feedback, bugs, or collaboration ideas:
 
 ## ⭐️ Show Your Support
 If you find this project useful, consider giving it a ⭐️ on [GitHub](https://github.com/real-ahmed-moussa/rag_app)!
+
+
+
+## 📝 License
+- This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
+- This project is licensed under the MIT License.
+
+© 2025 Dr. Ahmed Moussa
