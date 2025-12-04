@@ -229,5 +229,5 @@ If you find this project useful, consider giving it a ⭐️ on [GitHub](https:/
 ## 📝 License
 This project is shared for portfolio purposes only and may not be used for commercial purposes without permission.
 
-This project is licensed under the MIT License.
-© 2025 Dr. Ahmed Moussa
+This project is licensed under the **MIT License**.  
+© 2025 **Dr. Ahmed Moussa**
